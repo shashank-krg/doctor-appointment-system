@@ -1,0 +1,33 @@
+{
+  "name": "doctor-portal-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon --exec npx babel-node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install && npm run build",
+    "server": "npx nodemon --exec npx babel-node server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "npm test"
+  },
+  "author": "Shashank Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrent": "^0.3.2",
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "v10.16.0"
+  }
+}
