@@ -1,0 +1,91 @@
+{
+            "_id": "607d07a8f164794b4ceb6e23",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "9:00 Am- 9:30Am",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d08f66f33a559c02f831c",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "9:31 Am- 10:00Am",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d092a6f33a559c02f831d",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "10:00 Am- 10:30Am",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d093b6f33a559c02f831e",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "10:30 Am- 11:00Am",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d094c6f33a559c02f831f",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "11:00 Am- 11:30Am",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d095d6f33a559c02f8320",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "11:30 Am- 12:00Pm",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d096e6f33a559c02f8321",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "12:00 Pm- 12:30Pm",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d09826f33a559c02f8322",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "12:30 Am- 01:00Am",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d09a86f33a559c02f8323",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "01:00 Pm- 01:30Pm",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d09c56f33a559c02f8324",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "01:30 Pm- 02:00Pm",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d09d56f33a559c02f8325",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "04:30 Pm- 05:00Pm",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d09e76f33a559c02f8326",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "05:00 Pm- 05:30Pm",
+            "available": "Yes",
+            "__v": 0
+        },
+        {
+            "_id": "607d0a016f33a559c02f8327",
+            "name": "Dr. Rahul Sharma (M.B.B.S)",
+            "time": "05:30 Pm- 06:00Pm",
+            "available": "Yes",
+            "__v": 0
+        }
