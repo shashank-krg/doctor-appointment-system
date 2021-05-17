@@ -5,6 +5,14 @@ const router = express.Router();
 router
     .route('/')
     .get(slotControllers.getALlSlot)
-    .post(slotControllers.createSlot);
+    .post(slotControllers.createSlot)
+    .put(slotControllers.updateSlot)
+    .delete(slotControllers.deleteSlot);;
+
+router
+    .route('/:id')
+    .get(slotControllers.getSingleSlot)
+    .put(slotControllers.updateSlot)
+    .delete(slotControllers.deleteSlot);
 
 module.exports = router;
