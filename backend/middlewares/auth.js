@@ -3,7 +3,7 @@ const User = require('../models/User');
 
 async function createToken(data) {
   return jwt.sign(data, process.env.JWT_SECRET);
-
+//create an env file in root folder and define the jwt secret key else you can also write here directly
 }
 
 async function validateToken(req, res, next) {
