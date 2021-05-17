@@ -1,16 +1,21 @@
 const express = require('express');
-const appointmentController = require('../controllers/appointmentController');
+const {
+ 
+    getALlAppointment,
+    createAppointment,
+
+} = require('../controllers/appointmentController');
 const router = express.Router();
+const Auth = require("../middlewares/auth");
 
-router
-    .route('/')
-    .get(appointmentController.getALlAppointment)
-    .post(appointmentController.createAppointment);
+router.get("/",Auth.validateToken,getALlAppointment);
+router.post('/',createAppointment);
 
-router
-    .route('/:id')
-    .get(appointmentController.getSingAppointment)
-    .put(appointmentController.updateAppointment)
-    .delete(appointmentController.deleteAppointment);
+// router
+//     .route('/:id')
+//     .get(appointmentController.getSingAppointment)
+//     .put(appointmentController.updateAppointment)
+//     .delete(appointmentController.deleteAppointment);
 
 module.exports = router;
+
